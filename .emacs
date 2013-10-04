@@ -1,0 +1,10 @@
+(add-to-list 'load-path "~/.emacs.d/")
+(require 'color-theme)
+(add-to-list 'load-path "~/.emacs.d/themes/")
+(require 'color-theme-solarized)
+(setq color-theme-is-global t)
+(load-file "~/.emacs.d/themes/color-theme-blackboard.el")
+(color-theme-solarized-dark)
+(setq scheme-program-name
+    "/Applications/mit-scheme.app/Contents/Resources/mit-scheme")
+(require 'xscheme)

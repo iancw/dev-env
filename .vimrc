@@ -1,0 +1,11 @@
+set tabstop=2
+set shiftwidth=4
+set expandtab
+set hls
+set autoindent
+set smartindent
+set showmatch
+set guioptions-=T
+set incsearch
+set nocompatible
+set number
